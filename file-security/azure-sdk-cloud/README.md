@@ -113,12 +113,14 @@ requests
 
 7. SAS token Generation for file retrieval
 
+```bash
 fss-sdk-azure-stack % az storage blob generate-sas \  --account-name <place holder> \
   --container-name <place holder> \
   --name fss_scanner.zip \
   --permissions r \
   --expiry 2025-<month>-<date>T00:00:00Z \
   --output tsv
+```
 
 8. **Update Parameters File**
    
