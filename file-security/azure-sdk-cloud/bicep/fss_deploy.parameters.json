@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountNames": {
+            "value": ["<MONITORED-STORAGE-ACCOUNT-NAME>"]
+        },
+        "storageAccountName": {
+            "value": "<CODEHOLDER-STORAGE-ACCOUNT-NAME>"
+        },
+        "functionCodeBlobUrl": {
+            "value": "https://<placeholder>.blob.core.windows.net/<placeholder>/fss_scanner.zip?se=<SAStoken>"
+        },
+        "location": {
+            "value": "<LOCATION>"
+        },
+        "storageAccountLocations": {
+            "value": ["<LOCATION>"]
+        },
+        "amaasRegion": {
+            "value": "<AMAAS-REGION>"
+        },
+        "amaasApiKey": {
+            "value": "<AMAAS-API-KEY>"
+        },
+        "storageAccountKey": {
+            "value": "<STORAGE-ACCOUNT-KEY>"
+        }
+    }
+  }
