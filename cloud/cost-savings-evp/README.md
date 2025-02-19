@@ -15,6 +15,8 @@ git clone <repository-url>
 cd cloud/cost-savings-evp
 ```
 
+## Generate the Cloud 
+
 ## Usage
 
 Run the program with a CSV file as input:
